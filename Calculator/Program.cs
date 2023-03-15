@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Linq;
+using static Calculator.CreateFigure;
+
+namespace Calculator
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var create = new CreateFigure();
+            create.GetData();
+        }
+    }
+}
