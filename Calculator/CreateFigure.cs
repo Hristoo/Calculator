@@ -1,4 +1,6 @@
-﻿namespace Calculator
+﻿using Calculator.Models;
+
+namespace Calculator
 {
     public class CreateFigure
     {
@@ -19,8 +21,8 @@
             Console.WriteLine();
 
             Console.WriteLine("Enter dimensions of triangle separate by empty space as:");
-            Console.WriteLine("- first two are Base and Height");
-            Console.WriteLine("- the rest are the sides of the triangle");
+            Console.WriteLine(" - first two are Base and Height");
+            Console.WriteLine(" - the rest are the sides of the triangle");
 
             input = Console.ReadLine();
             var arr = CheckArray(input);

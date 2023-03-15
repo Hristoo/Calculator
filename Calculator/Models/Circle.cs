@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace Calculator
+namespace Calculator.Models
 {
     public class Circle
     {
